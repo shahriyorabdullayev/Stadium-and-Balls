@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.stadium.andballs.ui.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_collectionFragment"
+            app:destination="@id/collectionFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_factsFragment"
+            app:destination="@id/factsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.stadium.andballs.ui.fragments.CollectionFragment"
+        android:label="fragment_collection"
+        tools:layout="@layout/fragment_collection" />
+    <fragment
+        android:id="@+id/factsFragment"
+        android:name="com.stadium.andballs.ui.fragments.FactsFragment"
+        android:label="fragment_facts"
+        tools:layout="@layout/fragment_facts" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.stadium.andballs.ui.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.stadium.andballs.ui.fragments.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stadium and Balls</string>
+    <string name="facts">Facts</string>
+    <string name="collection">Collection</string>
+    <string name="fact_1">Women started playing soccer around the same time as men did in England. However, originally men were the main players in the game. Women’s soccer started to become extremely popular in the 1990s.</string>
+    <string name="fact_2">There are over 5000 teams in the English football system, with different tiers depending on the caliber of play. Any team can move up to the highest league, the Barclays Premier League, by winning and moving up.</string>
+    <string name="fact_3">Modern association soccer is recognized as starting with the Cambridge Rules in 1848. This brought the first standardized version of rules together to create a more uniform way to play the sport.</string>
+    <string name="best_result">Best Result</string>
+    <string name="current_result">Current Result</string>
+</resources>

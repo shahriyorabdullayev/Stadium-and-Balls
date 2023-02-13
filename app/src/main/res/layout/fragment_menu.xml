@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mainn"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.MenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <ImageView
+            android:id="@+id/btn_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:src="@drawable/ic_setting"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/btn_facts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn"
+            android:text="@string/facts"
+            android:layout_marginHorizontal="16dp"
+            android:paddingBottom="16sp"
+            android:fontFamily="@font/jura_bold"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/btn_collection"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn"
+            android:text="@string/collection"
+            android:layout_marginHorizontal="16dp"
+            android:paddingBottom="16sp"
+            android:fontFamily="@font/jura_bold"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:gravity="center|start">
+
+        <ImageView
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_game"
+            android:layout_marginHorizontal="40dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
